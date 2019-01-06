@@ -4,4 +4,6 @@ git commit				告知git文件已添加，加上-m 后面接描述语句
 git log 				查看提交历史
 git reflog				查看命令历史
 git reset --head HEAD~n	回退版本，n为数字，第几个版本前
+git status				查看状态
+git diff				查看修改内容
 	
