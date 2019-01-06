@@ -5,5 +5,6 @@ git log 				查看提交历史
 git reflog				查看命令历史
 git reset --head HEAD~n	回退版本，n为数字，第几个版本前
 git status				查看状态
-git diff				查看修改内容
+git diff				查看修改内容,git commit 之前
+git checkout -- file	销毁修改,销毁的是add后，commit前
 	
