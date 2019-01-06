@@ -16,4 +16,5 @@ git remote add origin git@server-name:path/repo-name.git
 git push (-u) origin master	推送最新修改，括号内为第一次推送时的参数 
 git clone git@github.com:williamxv/gitkill.git 克隆一个远程的仓库
 git brach (-d branchname)	查看所有分支(删除分支)
-git merge branchname 	将此分支的内容合并到当前选择的分支上
+git merge (--no-f) branchname 		将此分支的内容合并到当前选择的分支上
+git log --graph				查看分支合并图
