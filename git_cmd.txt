@@ -9,8 +9,11 @@ git diff				查看修改内容,git commit 之前
 git checkout -- file	销毁修改,销毁的是add前
 git checkout -b name 	创建一个新的分支
 git checkout branchname	切换分支
+
 git remote add origin git@server-name:path/repo-name.git
 关联一个远程库，server-name服务器名，repo-name：服务器上账户名字
+
 git push (-u) origin master	推送最新修改，括号内为第一次推送时的参数 
 git clone git@github.com:williamxv/gitkill.git 克隆一个远程的仓库
-test	
+git brach (-d branchname)	查看所有分支(删除分支)
+git merge branchname 	将此分支的内容合并到当前选择的分支上
