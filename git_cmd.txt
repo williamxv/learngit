@@ -1,3 +1,6 @@
-git init 	在某个路径下使之成为git仓库
-git add 	将文件添加到了版本库
-git commit	告知git文件已添加，加上-m 后面接描述语句
+git init 				在某个路径下使之成为git仓库
+git add 				将文件添加到了版本库
+git commit				告知git文件已添加，加上-m 后面接描述语句
+git log 				查看修改log
+git reset --head HEAD~n	回退版本，n为数字，第几个版本前
+	
